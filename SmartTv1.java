@@ -3,6 +3,7 @@ public class SmartTv {
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
+    float altura = 1.75f
 
 
     //Criando os métodos
