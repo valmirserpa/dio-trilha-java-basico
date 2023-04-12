@@ -13,19 +13,22 @@ public class PrimeiroPrograma {
         System.out.println("Olá, mundo!" + (a + b));
 
 
-        Livro livro1= new Livro("O problema dos 3 corpos", 300 );
+        Livro livro1 = new Livro("O problema dos 3 corpos", 300);
         System.out.println(livro1);
 
+        {
+            {
+                {
 
-
-
-
+                }
+            }
+        }
 
     }
 }
 
 
-class Livro{
+class Livro {
     private String nome;
     private Integer numPaginas;
 
